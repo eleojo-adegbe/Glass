@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h3{
+     width: 70%;
+     text-align: center;
+     line-height: 3rem;
+     margin-left: 7rem ;
+     margin-top: 1rem;
+}
+
+body{
+    background-image: linear-gradient(120deg,#35f6cc,#3b3db8);
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(120deg,#32a579,#1d4bad);
+}
+header button{
+    padding: 0.3rem;
+    border-radius: 5px;
+    /* background-color: blue; */
+        background-color: rgba(13, 130, 150, 1);
+        color: white;
+        outline: none;
+        border: none;
+}
+
+
+.UL{
+    display: flex
+}
+
+.UL li{
+    list-style: none;
+    padding: 2rem;
+
+    color: wheat;
+    font-size:larger;
+}
+.UL li:hover{
+    color: #658ec6;
+    cursor: pointer;
+}
+
+
+.about-us{
+    min-height: 100vh;
+    margin-top: 3rem;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 3rem;
+    background: linear-gradient(to right,rgb(57, 79, 150, ),rgb(17, 223, 13)) ;
+
+    
+    
+
+    
+}
+
+.about{
+    display: flex;
+    width: 90%;
+    height:25rem;
+    /* background-color: linear-gradient(to right, rgba(27, 10, 10, 0.7),rgba(255,255,255,1));  */
+    /* background: blanchedalmond; */
+    
+    /* border-radius: 1rem; */
+    justify-content: space-around;
+    align-items: center;
+    margin-top:3rem ;
+    
+    
+}
+.info{
+    background: linear-gradient(to right, rgba(200,200,200,1), rgba(130,120,130,0.3));
+    height: 20rem;
+    border-radius: 1rem;
+    width: 70%;
+    box-shadow: 1rem 1rem 4rem black;
+}
+.info-circle{
+    height: 20rem;
+    width:20rem;
+    background: chartreuse;
+    /* position: absolute; */
+    /* right: 10rem; */
+    border-radius: 50%;
+    box-shadow:5px 5px 25px black ;
+    /* margin-top: 2.5rem; */
+} 
+.one{
+    background-image: url("emmy.jpg");
+    background-size: cover;
+    
+
+
+}
+.two{
+    background-image: url("ahmed.jpg");
+    background-size: cover;
+
+}
+.three{
+    background-image: url("fom.jpg");
+    background-size: cover;
+
+    
+
+}
+.about button{
+    margin-left:45% ;
+    padding: 1rem;
+    background-color: #32a579;
+    border-radius: 1rem;
+    border: none;
+    outline: none;
+}
+.about button:hover{
+    background-color: #3b3db8;
+}

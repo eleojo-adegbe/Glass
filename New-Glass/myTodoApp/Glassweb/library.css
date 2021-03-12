@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+
+}
+body{
+    background-image: url("library.jpeg");
+    background-size: cover;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(120deg,#32a579,#1d4bad);
+}
+header button{
+    padding: 0.3rem;
+    border-radius: 5px;
+    /* background-color: blue; */
+        background-color: rgba(13, 130, 150, 1);
+        color: white;
+        outline: none;
+        border: none;
+}
+
+
+.UL{
+    display: flex
+}
+
+.UL li{
+    list-style: none;
+    padding: 2rem;
+
+    color: wheat;
+    font-size:larger;
+}
+.UL li:hover{
+    color: #658ec6;
+    cursor: pointer;
+}
+.section{
+    display: flex;
+    height: 40rem;
+    /* background-color: purple; */
+    justify-content: space-around;
+    margin-top: 5rem;
+    
+    
+
+}
+.fre-read{
+    display: flex ;
+    /* background-image: url("images (52).jpeg");  */
+    
+    
+    /* flex-direction: column; */
+    flex-wrap:wrap;
+    border-radius: 0 3rem 0 3rem ;
+    /* opacity: 0.9; */
+}
+
+.fre-read *{
+    padding: 0.2rem;
+}
+.fre-read h1{
+    flex:100%;
+    color: silver;
+}
+.fre-read-pics{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    flex-wrap: wrap;
+    color: white;
+    transition: 100ms;
+    
+}
+.fre-read img{
+    height:2rem;
+    width:2rem;
+}
+.fre-read-pics:hover{
+    transform: scale(1.1);
+
+}
+.donate{
+    background-image: url("donate.jpeg");
+    background-size:cover;
+    height: 30rem;
+    width: 20rem;
+    border-radius: 3rem 0rem 3rem 0rem;
+    
+}
+.donate h1{
+    margin: 1rem;
+}
+.donate table *{
+    /* margin-top:  5rem;  */
+    padding: 0.5rem;
+}
+.donate *{
+    margin-left: 1rem;
+}
+.section img{
+    height: 5rem;
+    width: 5rem;
+
+}
+.virtual-events{
+    height: 30rem;
+    background-image: url("images (55).jpeg");
+    margin-inline: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.virtual-events h1{
+    color: white;
+    font-size: 2rem;
+    font-family: cursive;
+}
+.whatsapp, .telegram, .youtube{
+    /* background-color: tomato; */
+    height: 10rem;
+    width: 33.13rem;
+    
+    color:white ;
+    /* font-size: 1rem; */
+}
+.whatsapp img, .telegram img, .youtube img{
+    width: 5rem;
+    /* height: 5rem; */
+    border-radius: 2rem;
+}
+.whatsapp a, .telegram a, .youtube a{
+   font-size: 1rem;
+   text-decoration: none;
+   color: green;
+}
